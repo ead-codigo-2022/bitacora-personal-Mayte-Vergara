@@ -4,36 +4,10 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
 }
 header{
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    background: #ffffff;
-    box-shadow: 0 5px 10px rgba(0,0,0,.1);
-    padding: 0px 7%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1000;
-}
-header .bnav ul{
-    list-style: none;
-}
-header .bnav ul li{
-    position: relative;
-    float: left;
-}
-header .bnav ul li a{
-    font-size: 20px;
-    padding: 20px;
-    color: #333;
-    display: block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: medium;
-    font-style: italic;
-}
-header .navbar ul li a:hover{
-    background: #242362;
-    color: #ffffff;
-    
+    background-color: #ffffff;
+    height: 80px;
 }
