@@ -48,15 +48,48 @@ main p{
     margin-inline-start: 20px;
     margin-inline-end: 20px;
 }
+.fotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.fotos .gallery{
+    max-width: 75opx;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px;
+    grid-gap:1rem;
 
-
-
-.footer{
-    background-color: #ffffff;
-    padding: 1em 0;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
+}
+.fotos .gallery img{
+    object-fit: cover;
     width: 100%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    border-radius: 2px;
+
+}
+.fotos .gallery .img-a{
+    
+    grid-column:1/3 ;
+    margin: 20px solid #ffffff;
+    
+}
+.fotos .gallery .img-b{
+   
+}
+.fotos .gallery .img-c{
+   
+}
+.fotos .gallery .img-d{
+    
+}
+.fotos .gallery .img-e{
+    
+}
+.fotos .gallery .img-f{
+    
+}
+.fotos .gallery .img-g{
+    grid-column: 2;
 }
