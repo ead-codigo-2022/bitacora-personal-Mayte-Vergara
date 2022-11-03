@@ -1,4 +1,9 @@
-body{
+
+html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
     background-image:url(../images/000033.JPG);
     background-position: center;
     background-repeat: no-repeat;
@@ -14,9 +19,12 @@ a{
     padding: 10px;
     
 }
+a:hover{
+    color:rgb(176,228,250);
+}
 
 header{
-    background-color: #ffffff;
+    background-color:rgb(176,228,250,0.2);
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -31,46 +39,87 @@ header{
 .logo img{
     height: 65px;
 }
+h1{font-size: 3em;}
+p{font-size: 1em;}
 
-main h1{
-    display: block;
-    font-size: 2em;
-    margin-block-start:1em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 20px;
-    margin-inline-end: 20px;
-    font-weight: bold;
-}
-main p{
-    display: block;
-    margin-block-start: 2em;
-    margin-block-end: 1em;
-    margin-inline-start: 20px;
-    margin-inline-end: 20px;
-}
-.fotos{
+#hero{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 65vh;
+    background-color:rgb(255,255,255,0.2);
+    font-weight: 600;
+    font-style: italic;
+    
+
+  }
+  .container{
+    background-color:rgb(255,255,255,0.2);
+    display: flex;
+    padding: 25px;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-}
-.fotos .gallery{
-    max-width: 75opx;
-    display: grid;
-    grid-template-columns: 250px 250px 250px;
-    grid-template-rows: 250px 250px 250px;
-    grid-gap:1rem;
+    margin: 5%;
+  }
+  .container .img1{
+    margin-left: 40px;
+    margin-top: 1em;
+    
+  }
+  .container .texto{
+    padding-left: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+
+  a.boton{
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-weight: 800;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-.fotos .gallery img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    border-radius: 2px;
 
+a.boton:hover{
+   color:#F96E28;
 }
-.fotos .gallery .img-a{
+.analogas{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 20px;
+   
+}
+.analogas img{
+    max-width: 400px;
+    padding: 3.3rem;
+    background: rgb(255,255,255,0.2);
+   
+}
+h3{
+    text-decoration:underline;
+}
+h4 {
+    display: flex;
+    margin-block-start: 2em;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.contacto{
+    background-color: rgb(255,255,255,0.8);
     
-    grid-column:1/3 ;
-    margin: 20px solid #ffffff;
+    padding:15px;
+    display:column-reverse;
+    text-align: center;
+}
+
+footer{
+    background-color:rgb(255,255,255,0.8); 
+    text-align: end;
     
+}
